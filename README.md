@@ -2,7 +2,6 @@
 
 ## Introduction
 
-> ***Note:*** *This is a pair programming activity! You must work with a partner on this project! There are many pieces that could trip you up, so having two pairs of eyes and two brains on one set of code will be an important tactic to minimize errors and generate ideas.*
 
 In this training, we attempt to put together much of the work from this week. We'll be using jQuery's `ajax()` function to make calls to a third party API.  We will be using live data from the USGS (United States Geological Survey), specifically a data set showing significant earthquakes (M4.0 or greater) from the past week.
 
@@ -68,12 +67,12 @@ Write out the AJAX call that will grab the data and `console.log` the list of ea
 
 #### Part 3. Add Google Maps
 - Your next goal is to integrate Google Maps:
-    - Follow the tutorial at [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
+    -  the tutorial at [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial) may help
         + Note that you would normally need to sign up for an API key, but we've provided one (See `index.html` line 18)
         + Be VERY careful when you copy and paste code!
     - Please center your map on your city:
-        - Austin:  `{lat: 30.2682, lng: -97.74295}`
-        - San Francisco: `{ lat: 37.78, lng: -122.44}`
+        - Chicago:  `{lat: 41.8781, lng: -87.6298}`
+     
 
         > NOTE: The proper implementation will entail writing your code for Google Maps integration in `app.js` only.  There is no need to alter `index.html` as some resources may recommend.
 
